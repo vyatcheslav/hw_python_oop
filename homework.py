@@ -24,10 +24,10 @@ class InfoMessage:
 @dataclass
 class Training:
     """Базовый класс тренировки."""
-    # Расстояние, которое спортсмен преодолевает за один шаг.
     action: int
     duration: float
     weight: float
+    # Расстояние, которое спортсмен преодолевает за один шаг.
     LEN_STEP = 0.65
     M_IN_KM = 1000
     MIN_IN_H = 60

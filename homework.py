@@ -20,6 +20,7 @@ class InfoMessage:
     def get_message(self) -> str:
         return self.MESSAGE.format(**asdict(self))
 
+
 @dataclass
 class Training:
     """Базовый класс тренировки."""
